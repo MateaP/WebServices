@@ -1,0 +1,29 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from EMBGService WSDL service -->
+
+  <service name="EMBG" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://service.web.com.check"/>
+      <parameter name="wsdlServiceElement" value="EMBGService"/>
+      <parameter name="schemaQualified" value="http://service.web.com.check"/>
+      <parameter name="wsdlServicePort" value="EMBG"/>
+      <parameter name="className" value="check.com.web.service.EMBGSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="EMBG"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="testEMBG" qname="operNS:testEMBG" xmlns:operNS="http://service.web.com.check" returnQName="retNS:testEMBGReturn" xmlns:retNS="http://service.web.com.check" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:embg" xmlns:pns="http://service.web.com.check" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="testEMBG"/>
+
+  </service>
+</deployment>
