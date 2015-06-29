@@ -15,6 +15,7 @@ public class test {
 			String s1 = sc.next();
 			System.out.println(proxy.testEMBG(s1));
 		}
+		sc.close();
 
 		System.out.println("The loop has been ended");
 	}
