@@ -1,0 +1,989 @@
+<dsKurs>
+  <xs:schema id="dsKurs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="dsKurs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="KursZbir">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="RBr" type="xs:double" minOccurs="0" />
+                <xs:element name="Datum" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Valuta" type="xs:double" minOccurs="0" />
+                <xs:element name="Oznaka" type="xs:string" minOccurs="0" />
+                <xs:element name="Drzava" type="xs:string" minOccurs="0" />
+                <xs:element name="Nomin" type="xs:double" minOccurs="0" />
+                <xs:element name="Kupoven" type="xs:double" minOccurs="0" />
+                <xs:element name="Sreden" type="xs:double" minOccurs="0" />
+                <xs:element name="Prodazen" type="xs:double" minOccurs="0" />
+                <xs:element name="DrzavaAng" type="xs:string" minOccurs="0" />
+                <xs:element name="NazivMak" type="xs:string" minOccurs="0" />
+                <xs:element name="NazivAng" type="xs:string" minOccurs="0" />
+                <xs:element name="Datum_f" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>978</Valuta>
+    <Oznaka>EUR</Oznaka>
+    <Drzava>ЕМУ</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>61.3855</Kupoven>
+    <Sreden>61.694</Sreden>
+    <Prodazen>62.0025</Prodazen>
+    <DrzavaAng>EMU</DrzavaAng>
+    <NazivMak>евро</NazivMak>
+    <NazivAng>Euro</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>840</Valuta>
+    <Oznaka>USD</Oznaka>
+    <Drzava>С А Д</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>54.745</Kupoven>
+    <Sreden>55.0201</Sreden>
+    <Prodazen>55.2952</Prodazen>
+    <DrzavaAng>USA</DrzavaAng>
+    <NazivMak>САД долар</NazivMak>
+    <NazivAng>US dollar</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>826</Valuta>
+    <Oznaka>GBP</Oznaka>
+    <Drzava>В.Британија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>86.2399</Kupoven>
+    <Sreden>86.6732</Sreden>
+    <Prodazen>87.1066</Prodazen>
+    <DrzavaAng>U.K.</DrzavaAng>
+    <NazivMak>британска фунта</NazivMak>
+    <NazivAng>British pound</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>756</Valuta>
+    <Oznaka>CHF</Oznaka>
+    <Drzava>Швајцарија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>58.7478</Kupoven>
+    <Sreden>59.043</Sreden>
+    <Prodazen>59.3382</Prodazen>
+    <DrzavaAng>Switzerland</DrzavaAng>
+    <NazivMak>швајцарски франк</NazivMak>
+    <NazivAng>Swiss franc</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>752</Valuta>
+    <Oznaka>SEK</Oznaka>
+    <Drzava>Шведска</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>6.6638</Kupoven>
+    <Sreden>6.6973</Sreden>
+    <Prodazen>6.7308</Prodazen>
+    <DrzavaAng>Sweden</DrzavaAng>
+    <NazivMak>шведска круна</NazivMak>
+    <NazivAng>Swedish krona</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>578</Valuta>
+    <Oznaka>NOK</Oznaka>
+    <Drzava>Норвешка</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>7.0003</Kupoven>
+    <Sreden>7.0355</Sreden>
+    <Prodazen>7.0706</Prodazen>
+    <DrzavaAng>Norway</DrzavaAng>
+    <NazivMak>норвешка круна</NazivMak>
+    <NazivAng>Norwegian krone</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>392</Valuta>
+    <Oznaka>JPY</Oznaka>
+    <Drzava>Јапонија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.4418</Kupoven>
+    <Sreden>0.4441</Sreden>
+    <Prodazen>0.4463</Prodazen>
+    <DrzavaAng>Japan</DrzavaAng>
+    <NazivMak>јапонски јен</NazivMak>
+    <NazivAng>Japanese yen</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>208</Valuta>
+    <Oznaka>DKK</Oznaka>
+    <Drzava>Данска</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>8.2265</Kupoven>
+    <Sreden>8.2679</Sreden>
+    <Prodazen>8.3092</Prodazen>
+    <DrzavaAng>Denmark</DrzavaAng>
+    <NazivMak>данска круна</NazivMak>
+    <NazivAng>Danish krone</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>124</Valuta>
+    <Oznaka>CAD</Oznaka>
+    <Drzava>Канада</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>44.5048</Kupoven>
+    <Sreden>44.7285</Sreden>
+    <Prodazen>44.9521</Prodazen>
+    <DrzavaAng>Canada</DrzavaAng>
+    <NazivMak>канадски долар</NazivMak>
+    <NazivAng>Canadian dollar</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>36</Valuta>
+    <Oznaka>AUD</Oznaka>
+    <Drzava>Австралија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>42.4138</Kupoven>
+    <Sreden>42.627</Sreden>
+    <Prodazen>42.8401</Prodazen>
+    <DrzavaAng>Australia</DrzavaAng>
+    <NazivMak>австралиски долар</NazivMak>
+    <NazivAng>Australian dollar</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>975</Valuta>
+    <Oznaka>BGN</Oznaka>
+    <Drzava>Бугарија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>31.3864</Kupoven>
+    <Sreden>31.5441</Sreden>
+    <Prodazen>31.7018</Prodazen>
+    <DrzavaAng>Bulgaria</DrzavaAng>
+    <NazivMak>бугарски лев</NazivMak>
+    <NazivAng>Bulgarian lev</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>203</Valuta>
+    <Oznaka>CZK</Oznaka>
+    <Drzava>Чешка</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>2.2563</Kupoven>
+    <Sreden>2.2677</Sreden>
+    <Prodazen>2.279</Prodazen>
+    <DrzavaAng>Czech Republic</DrzavaAng>
+    <NazivMak>чешка круна</NazivMak>
+    <NazivAng>Czech koruna</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>348</Valuta>
+    <Oznaka>HUF</Oznaka>
+    <Drzava>Унгарија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.1973</Kupoven>
+    <Sreden>0.1983</Sreden>
+    <Prodazen>0.1993</Prodazen>
+    <DrzavaAng>Hungary</DrzavaAng>
+    <NazivMak>унгарска форинта</NazivMak>
+    <NazivAng>Hungarian forint</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>985</Valuta>
+    <Oznaka>PLN</Oznaka>
+    <Drzava>Полска</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>14.731</Kupoven>
+    <Sreden>14.805</Sreden>
+    <Prodazen>14.879</Prodazen>
+    <DrzavaAng>Poland</DrzavaAng>
+    <NazivMak>полска злота</NazivMak>
+    <NazivAng>Polish zloty</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>946</Valuta>
+    <Oznaka>RON</Oznaka>
+    <Drzava>Рoманија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>13.7405</Kupoven>
+    <Sreden>13.8095</Sreden>
+    <Prodazen>13.8786</Prodazen>
+    <DrzavaAng>Romania</DrzavaAng>
+    <NazivMak>нов романски леу</NazivMak>
+    <NazivAng>New Romanian leu</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>191</Valuta>
+    <Oznaka>HRK</Oznaka>
+    <Drzava>Хрватска</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>8.0898</Kupoven>
+    <Sreden>8.1305</Sreden>
+    <Prodazen>8.1711</Prodazen>
+    <DrzavaAng>Croatia</DrzavaAng>
+    <NazivMak>хрватска куна</NazivMak>
+    <NazivAng>Croatian kuna</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>949</Valuta>
+    <Oznaka>TRY</Oznaka>
+    <Drzava>Турција</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>20.4878</Kupoven>
+    <Sreden>20.5907</Sreden>
+    <Prodazen>20.6937</Prodazen>
+    <DrzavaAng>Turkey</DrzavaAng>
+    <NazivMak>турска лира</NazivMak>
+    <NazivAng>Turkish lira</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>643</Valuta>
+    <Oznaka>RUB</Oznaka>
+    <Drzava>Русија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>1.0074</Kupoven>
+    <Sreden>1.0125</Sreden>
+    <Prodazen>1.0175</Prodazen>
+    <DrzavaAng>Russia</DrzavaAng>
+    <NazivMak>руска рубља</NazivMak>
+    <NazivAng>Russian rouble</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>986</Valuta>
+    <Oznaka>BRL</Oznaka>
+    <Drzava>Бразил</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>17.8229</Kupoven>
+    <Sreden>17.9124</Sreden>
+    <Prodazen>18.002</Prodazen>
+    <DrzavaAng>Brazil</DrzavaAng>
+    <NazivMak>бразилски реал</NazivMak>
+    <NazivAng>Brasilian real</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>156</Valuta>
+    <Oznaka>CNY</Oznaka>
+    <Drzava>Кина</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>8.8174</Kupoven>
+    <Sreden>8.8617</Sreden>
+    <Prodazen>8.906</Prodazen>
+    <DrzavaAng>China</DrzavaAng>
+    <NazivMak>кинески јуан</NazivMak>
+    <NazivAng>Chinese yuan renminbi</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>344</Valuta>
+    <Oznaka>HKD</Oznaka>
+    <Drzava>Хонг Конг</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>7.0617</Kupoven>
+    <Sreden>7.0972</Sreden>
+    <Prodazen>7.1327</Prodazen>
+    <DrzavaAng>Hong Kong</DrzavaAng>
+    <NazivMak>хонгконшки долар</NazivMak>
+    <NazivAng>Hong kong dollar</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>360</Valuta>
+    <Oznaka>IDR</Oznaka>
+    <Drzava>Индонезија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.0041</Kupoven>
+    <Sreden>0.0041</Sreden>
+    <Prodazen>0.0042</Prodazen>
+    <DrzavaAng>Indonesia</DrzavaAng>
+    <NazivMak>индонезиска рупија</NazivMak>
+    <NazivAng>Indonesian rupiah</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>376</Valuta>
+    <Oznaka>ILS</Oznaka>
+    <Drzava>Израел</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>14.5525</Kupoven>
+    <Sreden>14.6257</Sreden>
+    <Prodazen>14.6988</Prodazen>
+    <DrzavaAng>Israel</DrzavaAng>
+    <NazivMak>израелски шекел</NazivMak>
+    <NazivAng>Israeli shekel</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>356</Valuta>
+    <Oznaka>INR</Oznaka>
+    <Drzava>Индија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.8609</Kupoven>
+    <Sreden>0.8653</Sreden>
+    <Prodazen>0.8696</Prodazen>
+    <DrzavaAng>India</DrzavaAng>
+    <NazivMak>индиска рупија</NazivMak>
+    <NazivAng>Indian rupee</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>410</Valuta>
+    <Oznaka>KRW</Oznaka>
+    <Drzava>Јужна Кореја</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.0493</Kupoven>
+    <Sreden>0.0496</Sreden>
+    <Prodazen>0.0498</Prodazen>
+    <DrzavaAng>Korea</DrzavaAng>
+    <NazivMak>јужнокорејски вон</NazivMak>
+    <NazivAng>won</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>484</Valuta>
+    <Oznaka>MXN</Oznaka>
+    <Drzava>Мексико</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>3.5588</Kupoven>
+    <Sreden>3.5767</Sreden>
+    <Prodazen>3.5946</Prodazen>
+    <DrzavaAng>Mexico</DrzavaAng>
+    <NazivMak>мексиканско песо</NazivMak>
+    <NazivAng>Mexican peso</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>458</Valuta>
+    <Oznaka>MYR</Oznaka>
+    <Drzava>Малезија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>14.5525</Kupoven>
+    <Sreden>14.6257</Sreden>
+    <Prodazen>14.6988</Prodazen>
+    <DrzavaAng>Malaysia</DrzavaAng>
+    <NazivMak>малезиски рингит</NazivMak>
+    <NazivAng>Malaysian ringgit</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>554</Valuta>
+    <Oznaka>NZD</Oznaka>
+    <Drzava>Нов Зеланд</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>37.6668</Kupoven>
+    <Sreden>37.856</Sreden>
+    <Prodazen>38.0453</Prodazen>
+    <DrzavaAng>New Zealand</DrzavaAng>
+    <NazivMak>новозеландски долар</NazivMak>
+    <NazivAng>New Zealand dollar</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>608</Valuta>
+    <Oznaka>PHP</Oznaka>
+    <Drzava>Филипини</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>1.2152</Kupoven>
+    <Sreden>1.2213</Sreden>
+    <Prodazen>1.2274</Prodazen>
+    <DrzavaAng>Philppines</DrzavaAng>
+    <NazivMak>филипинско песо</NazivMak>
+    <NazivAng>Philippine peso</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>702</Valuta>
+    <Oznaka>SGD</Oznaka>
+    <Drzava>Сингапур</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>40.7579</Kupoven>
+    <Sreden>40.9628</Sreden>
+    <Prodazen>41.1676</Prodazen>
+    <DrzavaAng>Singapore</DrzavaAng>
+    <NazivMak>сингапурски долар</NazivMak>
+    <NazivAng>Singapore dollar</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>764</Valuta>
+    <Oznaka>THB</Oznaka>
+    <Drzava>Тајланд</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>1.6207</Kupoven>
+    <Sreden>1.6289</Sreden>
+    <Prodazen>1.637</Prodazen>
+    <DrzavaAng>Thailand</DrzavaAng>
+    <NazivMak>тајландски бахт</NazivMak>
+    <NazivAng>Thai baht</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>117</RBr>
+    <Datum>2015-06-25T00:00:00+02:00</Datum>
+    <Valuta>710</Valuta>
+    <Oznaka>ZAR</Oznaka>
+    <Drzava>Јужна Африка</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>4.515</Kupoven>
+    <Sreden>4.5377</Sreden>
+    <Prodazen>4.5604</Prodazen>
+    <DrzavaAng>South Africa</DrzavaAng>
+    <NazivMak>јужноафрикански ранд</NazivMak>
+    <NazivAng>South African rand</NazivAng>
+    <Datum_f>2015-06-24T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>978</Valuta>
+    <Oznaka>EUR</Oznaka>
+    <Drzava>ЕМУ</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>61.3865</Kupoven>
+    <Sreden>61.695</Sreden>
+    <Prodazen>62.0035</Prodazen>
+    <DrzavaAng>EMU</DrzavaAng>
+    <NazivMak>евро</NazivMak>
+    <NazivAng>Euro</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>840</Valuta>
+    <Oznaka>USD</Oznaka>
+    <Drzava>С А Д</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>54.7801</Kupoven>
+    <Sreden>55.0553</Sreden>
+    <Prodazen>55.3306</Prodazen>
+    <DrzavaAng>USA</DrzavaAng>
+    <NazivMak>САД долар</NazivMak>
+    <NazivAng>US dollar</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>826</Valuta>
+    <Oznaka>GBP</Oznaka>
+    <Drzava>В.Британија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>86.1444</Kupoven>
+    <Sreden>86.5773</Sreden>
+    <Prodazen>87.0102</Prodazen>
+    <DrzavaAng>U.K.</DrzavaAng>
+    <NazivMak>британска фунта</NazivMak>
+    <NazivAng>British pound</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>756</Valuta>
+    <Oznaka>CHF</Oznaka>
+    <Drzava>Швајцарија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>58.4244</Kupoven>
+    <Sreden>58.718</Sreden>
+    <Prodazen>59.0116</Prodazen>
+    <DrzavaAng>Switzerland</DrzavaAng>
+    <NazivMak>швајцарски франк</NazivMak>
+    <NazivAng>Swiss franc</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>752</Valuta>
+    <Oznaka>SEK</Oznaka>
+    <Drzava>Шведска</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>6.6525</Kupoven>
+    <Sreden>6.6859</Sreden>
+    <Prodazen>6.7194</Prodazen>
+    <DrzavaAng>Sweden</DrzavaAng>
+    <NazivMak>шведска круна</NazivMak>
+    <NazivAng>Swedish krona</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>578</Valuta>
+    <Oznaka>NOK</Oznaka>
+    <Drzava>Норвешка</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>7.008</Kupoven>
+    <Sreden>7.0432</Sreden>
+    <Prodazen>7.0784</Prodazen>
+    <DrzavaAng>Norway</DrzavaAng>
+    <NazivMak>норвешка круна</NazivMak>
+    <NazivAng>Norwegian krone</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>392</Valuta>
+    <Oznaka>JPY</Oznaka>
+    <Drzava>Јапонија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.4432</Kupoven>
+    <Sreden>0.4454</Sreden>
+    <Prodazen>0.4476</Prodazen>
+    <DrzavaAng>Japan</DrzavaAng>
+    <NazivMak>јапонски јен</NazivMak>
+    <NazivAng>Japanese yen</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>208</Valuta>
+    <Oznaka>DKK</Oznaka>
+    <Drzava>Данска</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>8.229</Kupoven>
+    <Sreden>8.2703</Sreden>
+    <Prodazen>8.3117</Prodazen>
+    <DrzavaAng>Denmark</DrzavaAng>
+    <NazivMak>данска круна</NazivMak>
+    <NazivAng>Danish krone</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>124</Valuta>
+    <Oznaka>CAD</Oznaka>
+    <Drzava>Канада</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>44.233</Kupoven>
+    <Sreden>44.4553</Sreden>
+    <Prodazen>44.6775</Prodazen>
+    <DrzavaAng>Canada</DrzavaAng>
+    <NazivMak>канадски долар</NazivMak>
+    <NazivAng>Canadian dollar</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>36</Valuta>
+    <Oznaka>AUD</Oznaka>
+    <Drzava>Австралија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>42.4028</Kupoven>
+    <Sreden>42.6159</Sreden>
+    <Prodazen>42.829</Prodazen>
+    <DrzavaAng>Australia</DrzavaAng>
+    <NazivMak>австралиски долар</NazivMak>
+    <NazivAng>Australian dollar</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>975</Valuta>
+    <Oznaka>BGN</Oznaka>
+    <Drzava>Бугарија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>31.3869</Kupoven>
+    <Sreden>31.5446</Sreden>
+    <Prodazen>31.7024</Prodazen>
+    <DrzavaAng>Bulgaria</DrzavaAng>
+    <NazivMak>бугарски лев</NazivMak>
+    <NazivAng>Bulgarian lev</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>203</Valuta>
+    <Oznaka>CZK</Oznaka>
+    <Drzava>Чешка</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>2.254</Kupoven>
+    <Sreden>2.2653</Sreden>
+    <Prodazen>2.2766</Prodazen>
+    <DrzavaAng>Czech Republic</DrzavaAng>
+    <NazivMak>чешка круна</NazivMak>
+    <NazivAng>Czech koruna</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>348</Valuta>
+    <Oznaka>HUF</Oznaka>
+    <Drzava>Унгарија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.1969</Kupoven>
+    <Sreden>0.1979</Sreden>
+    <Prodazen>0.1989</Prodazen>
+    <DrzavaAng>Hungary</DrzavaAng>
+    <NazivMak>унгарска форинта</NazivMak>
+    <NazivAng>Hungarian forint</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>985</Valuta>
+    <Oznaka>PLN</Oznaka>
+    <Drzava>Полска</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>14.7115</Kupoven>
+    <Sreden>14.7854</Sreden>
+    <Prodazen>14.8593</Prodazen>
+    <DrzavaAng>Poland</DrzavaAng>
+    <NazivMak>полска злота</NazivMak>
+    <NazivAng>Polish zloty</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>946</Valuta>
+    <Oznaka>RON</Oznaka>
+    <Drzava>Рoманија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>13.7777</Kupoven>
+    <Sreden>13.8469</Sreden>
+    <Prodazen>13.9162</Prodazen>
+    <DrzavaAng>Romania</DrzavaAng>
+    <NazivMak>нов романски леу</NazivMak>
+    <NazivAng>New Romanian leu</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>191</Valuta>
+    <Oznaka>HRK</Oznaka>
+    <Drzava>Хрватска</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>8.0892</Kupoven>
+    <Sreden>8.1299</Sreden>
+    <Prodazen>8.1705</Prodazen>
+    <DrzavaAng>Croatia</DrzavaAng>
+    <NazivMak>хрватска куна</NazivMak>
+    <NazivAng>Croatian kuna</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>949</Valuta>
+    <Oznaka>TRY</Oznaka>
+    <Drzava>Турција</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>20.5684</Kupoven>
+    <Sreden>20.6718</Sreden>
+    <Prodazen>20.7752</Prodazen>
+    <DrzavaAng>Turkey</DrzavaAng>
+    <NazivMak>турска лира</NazivMak>
+    <NazivAng>Turkish lira</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>643</Valuta>
+    <Oznaka>RUB</Oznaka>
+    <Drzava>Русија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>1.0025</Kupoven>
+    <Sreden>1.0076</Sreden>
+    <Prodazen>1.0126</Prodazen>
+    <DrzavaAng>Russia</DrzavaAng>
+    <NazivMak>руска рубља</NazivMak>
+    <NazivAng>Russian rouble</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>986</Valuta>
+    <Oznaka>BRL</Oznaka>
+    <Drzava>Бразил</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>17.6963</Kupoven>
+    <Sreden>17.7852</Sreden>
+    <Prodazen>17.8741</Prodazen>
+    <DrzavaAng>Brazil</DrzavaAng>
+    <NazivMak>бразилски реал</NazivMak>
+    <NazivAng>Brasilian real</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>156</Valuta>
+    <Oznaka>CNY</Oznaka>
+    <Drzava>Кина</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>8.8224</Kupoven>
+    <Sreden>8.8668</Sreden>
+    <Prodazen>8.9111</Prodazen>
+    <DrzavaAng>China</DrzavaAng>
+    <NazivMak>кинески јуан</NazivMak>
+    <NazivAng>Chinese yuan renminbi</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>344</Valuta>
+    <Oznaka>HKD</Oznaka>
+    <Drzava>Хонг Конг</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>7.0668</Kupoven>
+    <Sreden>7.1023</Sreden>
+    <Prodazen>7.1378</Prodazen>
+    <DrzavaAng>Hong Kong</DrzavaAng>
+    <NazivMak>хонгконшки долар</NazivMak>
+    <NazivAng>Hong kong dollar</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>360</Valuta>
+    <Oznaka>IDR</Oznaka>
+    <Drzava>Индонезија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.0041</Kupoven>
+    <Sreden>0.0041</Sreden>
+    <Prodazen>0.0042</Prodazen>
+    <DrzavaAng>Indonesia</DrzavaAng>
+    <NazivMak>индонезиска рупија</NazivMak>
+    <NazivAng>Indonesian rupiah</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>376</Valuta>
+    <Oznaka>ILS</Oznaka>
+    <Drzava>Израел</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>14.5297</Kupoven>
+    <Sreden>14.6027</Sreden>
+    <Prodazen>14.6757</Prodazen>
+    <DrzavaAng>Israel</DrzavaAng>
+    <NazivMak>израелски шекел</NazivMak>
+    <NazivAng>Israeli shekel</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>356</Valuta>
+    <Oznaka>INR</Oznaka>
+    <Drzava>Индија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.8616</Kupoven>
+    <Sreden>0.8659</Sreden>
+    <Prodazen>0.8702</Prodazen>
+    <DrzavaAng>India</DrzavaAng>
+    <NazivMak>индиска рупија</NazivMak>
+    <NazivAng>Indian rupee</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>410</Valuta>
+    <Oznaka>KRW</Oznaka>
+    <Drzava>Јужна Кореја</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>0.0493</Kupoven>
+    <Sreden>0.0495</Sreden>
+    <Prodazen>0.0498</Prodazen>
+    <DrzavaAng>Korea</DrzavaAng>
+    <NazivMak>јужнокорејски вон</NazivMak>
+    <NazivAng>won</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>484</Valuta>
+    <Oznaka>MXN</Oznaka>
+    <Drzava>Мексико</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>3.5369</Kupoven>
+    <Sreden>3.5547</Sreden>
+    <Prodazen>3.5725</Prodazen>
+    <DrzavaAng>Mexico</DrzavaAng>
+    <NazivMak>мексиканско песо</NazivMak>
+    <NazivAng>Mexican peso</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>458</Valuta>
+    <Oznaka>MYR</Oznaka>
+    <Drzava>Малезија</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>14.5787</Kupoven>
+    <Sreden>14.652</Sreden>
+    <Prodazen>14.7252</Prodazen>
+    <DrzavaAng>Malaysia</DrzavaAng>
+    <NazivMak>малезиски рингит</NazivMak>
+    <NazivAng>Malaysian ringgit</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>554</Valuta>
+    <Oznaka>NZD</Oznaka>
+    <Drzava>Нов Зеланд</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>37.8672</Kupoven>
+    <Sreden>38.0575</Sreden>
+    <Prodazen>38.2478</Prodazen>
+    <DrzavaAng>New Zealand</DrzavaAng>
+    <NazivMak>новозеландски долар</NazivMak>
+    <NazivAng>New Zealand dollar</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>608</Valuta>
+    <Oznaka>PHP</Oznaka>
+    <Drzava>Филипини</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>1.2144</Kupoven>
+    <Sreden>1.2205</Sreden>
+    <Prodazen>1.2266</Prodazen>
+    <DrzavaAng>Philppines</DrzavaAng>
+    <NazivMak>филипинско песо</NazivMak>
+    <NazivAng>Philippine peso</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>702</Valuta>
+    <Oznaka>SGD</Oznaka>
+    <Drzava>Сингапур</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>40.8372</Kupoven>
+    <Sreden>41.0424</Sreden>
+    <Prodazen>41.2477</Prodazen>
+    <DrzavaAng>Singapore</DrzavaAng>
+    <NazivMak>сингапурски долар</NazivMak>
+    <NazivAng>Singapore dollar</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>764</Valuta>
+    <Oznaka>THB</Oznaka>
+    <Drzava>Тајланд</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>1.6227</Kupoven>
+    <Sreden>1.6308</Sreden>
+    <Prodazen>1.639</Prodazen>
+    <DrzavaAng>Thailand</DrzavaAng>
+    <NazivMak>тајландски бахт</NazivMak>
+    <NazivAng>Thai baht</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+  <KursZbir>
+    <RBr>118</RBr>
+    <Datum>2015-06-26T00:00:00+02:00</Datum>
+    <Valuta>710</Valuta>
+    <Oznaka>ZAR</Oznaka>
+    <Drzava>Јужна Африка</Drzava>
+    <Nomin>1</Nomin>
+    <Kupoven>4.5262</Kupoven>
+    <Sreden>4.5489</Sreden>
+    <Prodazen>4.5717</Prodazen>
+    <DrzavaAng>South Africa</DrzavaAng>
+    <NazivMak>јужноафрикански ранд</NazivMak>
+    <NazivAng>South African rand</NazivAng>
+    <Datum_f>2015-06-25T00:00:00+02:00</Datum_f>
+  </KursZbir>
+</dsKurs>
