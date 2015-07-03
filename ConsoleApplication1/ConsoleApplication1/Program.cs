@@ -16,17 +16,22 @@ namespace ConsoleApplication1
             XQueryNavigatorCollection col = new XQueryNavigatorCollection();
             col.AddNavigator("C:\\Users\\matea\\workspace\\test\\my-file.xml", "doc");
 
-            string query = "for $x in document(\"doc\")/dsKurs/KursZbir return ($x/Oznaka/text(), \" \", $x/Nomin/text(), \" \", $x/Sreden/text(), \" \")";
+            string query = "for $x in document(\"doc\")/dsKurs/KursZbir return (<p>{$x/Oznaka/text(), \" \", $x/Nomin/text(), \" \", $x/Sreden/text()}</p>)";
 
 
             XQueryExpression xepr = new XQueryExpression(query);
             string result = xepr.Execute(col).ToXml();
-            string[] res = result.Split(' ');
-            int k = 0;
-            for (int i = 0; i < 32; i++)
+            String html = "<html>" + result + "</html>";
+
+            using (FileStream fs = new FileStream("D:\\test.htm", FileMode.Create))
             {
-                Console.WriteLine(res[k++] + " " + res[k++] + " " + res[k++]);
-            }
+                using (StreamWriter w = new StreamWriter(fs, Encoding.UTF8))
+                {
+                    w.WriteLine(html);
+                }
+            } 
+
+            Console.Write(result);
             Console.ReadKey();
         }
     }
